@@ -43,10 +43,10 @@ const ParticleAnimation = () => {
         },
         particles: {
           color: {
-            value: "#e68e2e",
+            value: "#E11D48",
           },
           links: {
-            color: "#f5d393",
+            color: "#E11D48",
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -84,8 +84,7 @@ const ParticleAnimation = () => {
         },
         detectRetina: true,
       }}
-      height="100vh"
-      width="100vw"
+      className="absolute h-full w-full inset-0"
     />
   );
 };
