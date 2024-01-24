@@ -32,11 +32,11 @@ const Contact = () => {
           <h2 className="text-xl font-medium text-gray-400">Contact</h2>
           <h3 className="text-4xl font-semibold text-rose-600">Contact Me</h3>
         </div>
-        <div className="flex gap-8 w-4/5">
+        <div className="flex gap-10 w-[90%]">
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-col items-center gap-4 w-1/2 sm:text-base text-sm"
+            className="flex flex-col items-center gap-6 w-1/2 p-10 sm:text-base text-sm bg-black bg-opacity-30 rounded-lg shadow-[0_0_10px_2px_rgba(225,225,225,0.2)]"
           >
             <div className="flex sm:flex-row flex-col sm:gap-5 gap-2 w-full">
               <div className="flex flex-col items-start gap-1 sm:w-1/2 w-full">
