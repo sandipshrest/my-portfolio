@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="py-32 relative bg-gray-900 text-white">
+    <section className="py-32 relative bg-gray-900 text-white">
       <ParticleAnimation />
       <div className="container flex items-center gap-10 relative">
         <div className="flex flex-col items-start w-1/2 gap-6">
@@ -32,15 +32,15 @@ const Intro = () => {
         </div>
         <div className="w-1/2">
           <Image
-            src="/images/"
+            src="/images/hacker.webp"
             height={2000}
             width={2000}
             alt="profile"
-            className="h-0"
+            className="w-full"
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
