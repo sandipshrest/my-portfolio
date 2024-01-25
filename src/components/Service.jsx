@@ -13,7 +13,7 @@ const Service = () => {
           {ServiceData.map((item, id) => (
             <div
               key={id}
-              className="flex flex-col items-center gap-6 px-5 py-8 bg-gray-950 bg-opacity-80 rounded-lg shadow-[0_0_10px_2px_rgba(225,225,225,0.3)]"
+              className="flex flex-col items-center gap-8 px-5 py-8 bg-gray-950 bg-opacity-80 rounded-lg shadow-[0_0_10px_2px_rgba(225,225,225,0.3)]"
             >
               <span className="text-6xl text-gray-300">{item.icon}</span>
               <h3 className="text-2xl font-bold text-rose-700">{item.title}</h3>
