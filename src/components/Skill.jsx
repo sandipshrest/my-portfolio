@@ -16,7 +16,7 @@ const Skill = () => {
         <div className="w-1/2 flex flex-col items-start gap-6">
           <div className="flex flex-col items-start gap-2">
             <small className="text-xl font-medium text-gray-400">Skill</small>
-            <h2 className="text-4xl font-semibold text-rose-600">My skills</h2>
+            <h2 className="text-4xl font-semibold text-rose-600">My Skills</h2>
           </div>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.

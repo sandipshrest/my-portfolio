@@ -3,6 +3,7 @@ import Intro from "./Intro";
 import Contact from "./Contact";
 import About from "./About";
 import Skill from "./Skill";
+import Service from "./Service";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
       <Intro />
       <About />
       <Skill />
+      <Service />
       <Contact />
     </>
   );
