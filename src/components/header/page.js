@@ -16,10 +16,10 @@ const Page = () => {
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#">Skills</a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#">Services</a>
             </li>
             <li>
               <a href="#">Portfolio</a>

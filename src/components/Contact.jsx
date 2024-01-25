@@ -32,7 +32,7 @@ const Contact = () => {
           <small className="text-xl font-medium text-gray-400">Contact</small>
           <h2 className="text-4xl font-semibold text-rose-600">Contact Me</h2>
         </div>
-        <div className="flex gap-10 w-full">
+        <div className="flex gap-12 w-full">
           <form
             ref={form}
             onSubmit={sendEmail}
