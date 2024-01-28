@@ -91,11 +91,13 @@ const Contact = () => {
                 className="border border-gray-300 bg-white bg-opacity-5 p-2 rounded w-full text-gray-200 focus:outline-none focus:shadow-[0_0_5px_2px_rgba(225,225,225,1)] transition-all duration-100 ease-linear"
               />
             </div>
-            <input
+            <button
               type="submit"
-              value="SUBMIT"
-              className="font-medium text-white bg-rose-600 px-2 py-1 rounded-sm cursor-pointer"
-            />
+              className="group inline-block relative py-1 px-2 bg-rose-600 border border-rose-600 overflow-hidden hover:text-rose-600 font-medium"
+            >
+              <span className="inline-block absolute w-full h-full bg-white top-0 -left-full group-hover:left-0 transition-all duration-200 ease-linear"></span>
+              <p className="relative">Submit</p>
+            </button>
           </form>
           <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 w-1/2">
             <div className="flex items-center gap-2">

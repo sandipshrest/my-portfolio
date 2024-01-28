@@ -46,8 +46,12 @@ const About = () => {
               facere corporis quibusdam harum ipsum?
             </p>
           </div>
-          <a href="#" className="inline-block py-1 px-2 bg-rose-600">
-            Download CV
+          <a
+            href="#"
+            className="group inline-block relative py-1 px-2 bg-rose-600 border border-rose-600 overflow-hidden hover:text-rose-600 font-medium"
+          >
+            <span className="inline-block absolute w-full h-full bg-white top-0 -left-full group-hover:left-0 transition-all duration-200 ease-linear"></span>
+            <p className="relative">Download CV</p>
           </a>
         </div>
       </div>

@@ -3,6 +3,7 @@ import React from "react";
 import ParticleAnimation from "./ParticleAnimation";
 import TypedText from "./TypedText";
 import Image from "next/image";
+import { scrollToElement } from "@/utils/Scroll";
 
 const Intro = () => {
   return (
@@ -26,9 +27,13 @@ const Intro = () => {
             keen eye for detail, I specialize in translating complex ideas into
             user-friendly interfaces that captivate and engage.
           </p>
-          <a href="#" className="py-1 px-2 bg-rose-600">
-            Hire Me
-          </a>
+          <button
+            onClick={() => scrollToElement("contact")}
+            className="group inline-block relative py-1 px-2 bg-rose-600 border border-rose-600 overflow-hidden hover:text-rose-600 font-medium"
+          >
+            <span className="inline-block absolute w-full h-full bg-white top-0 -left-full group-hover:left-0 transition-all duration-200 ease-linear"></span>
+            <p className="relative">Hire Me</p>
+          </button>
         </div>
         <div className="w-1/2">
           <Image
