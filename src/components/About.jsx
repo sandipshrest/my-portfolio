@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="py-24 bg-gray-950 text-white">
+    <section className="py-24 bg-gray-950 text-white" id="about">
       <div className="container flex items-center gap-12">
         <div className="w-[35%]">
           <div className="w-full p-14 bg-black bg-opacity-70 rounded-lg shadow-[0_0_10px_2px_rgba(225,225,225,0.2)]">

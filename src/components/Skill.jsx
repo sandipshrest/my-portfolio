@@ -10,7 +10,7 @@ const Skill = () => {
   });
 
   return (
-    <section className="py-24 text-white bg-gray-900">
+    <section className="py-24 text-white bg-gray-900" id="skill">
       <div className="container flex items-center gap-8">
         <div className="w-1/2"></div>
         <div className="w-1/2 flex flex-col items-start gap-6">

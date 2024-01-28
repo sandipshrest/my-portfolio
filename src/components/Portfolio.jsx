@@ -3,7 +3,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section className="py-24 bg-gray-900 text-white">
+    <section className="py-24 bg-gray-900 text-white" id="portfolio">
       <div className="container flex flex-col items-center gap-14">
         <div className="flex flex-col items-center gap-2">
           <small className="text-xl font-medium text-gray-400">Portfolio</small>

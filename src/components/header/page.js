@@ -1,31 +1,33 @@
+'use client'
 import React from "react";
+import { scrollToElement } from "@/utils/Scroll";
 
 const Page = () => {
   return (
     <header className="py-4 bg-gray-950 text-white sticky top-0 z-20">
       <div className="container flex justify-between items-center">
-        <a href="#" className="text-4xl font-semibold">
+        <a href="/" className="text-4xl font-semibold">
           SANDIP
         </a>
         <nav>
           <ul className="flex items-center gap-10 font-medium text-gray-200">
             <li>
-              <a href="#">Home</a>
+              <button onClick={() => scrollToElement("home")}>Home</button>
             </li>
             <li>
-              <a href="#">About</a>
+              <button onClick={() => scrollToElement("about")}>About</button>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <button onClick={() => scrollToElement("skill")}>Skills</button>
             </li>
             <li>
-              <a href="#">Services</a>
+              <button onClick={() => scrollToElement("service")}>Services</button>
             </li>
             <li>
-              <a href="#">Portfolio</a>
+              <button onClick={() => scrollToElement("portfolio")}>Portfolio</button>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <button onClick={() => scrollToElement("contact")}>Contact</button>
             </li>
           </ul>
         </nav>

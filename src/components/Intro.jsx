@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <section className="py-32 relative bg-gray-900 text-white">
+    <section className="py-32 relative bg-gray-900 text-white" id="home">
       <ParticleAnimation />
       <div className="container flex items-center gap-10 relative">
         <div className="flex flex-col items-start w-1/2 gap-6">
