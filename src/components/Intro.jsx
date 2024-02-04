@@ -13,7 +13,7 @@ const Intro = () => {
         <div className="flex flex-col items-start lg:w-2/3 w-full gap-6">
           <div className="flex flex-col items-start gap-1">
             <small className="text-base text-gray-200 font-medium">
-              Hello I'm
+              Hello I&apos;m
             </small>
             <h1 className="xl:text-7xl md:text-6xl sm:text-4xl text-3xl font-bold">
               Sandip Shrestha
@@ -23,7 +23,7 @@ const Intro = () => {
             </span>
           </div>
           <p className="sm:text-base text-sm">
-            I'm a passionate UI/UX designer, Frontend Developer & Backend
+            I&apos;m a passionate UI/UX designer, Frontend Developer & Backend
             Developer with a mission to create delightful and intuitive digital
             experiences. With a strong foundation in design principles and a
             keen eye for detail, I specialize in translating complex ideas into

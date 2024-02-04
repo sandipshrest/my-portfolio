@@ -12,6 +12,7 @@ const About = () => {
               priority={true}
               height={2000}
               width={2000}
+              alt="profile"
               className="w-full sm:h-[450px] h-[400px] object-cover"
             />
           </div>

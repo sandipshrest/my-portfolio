@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className="flex flex-col items-center gap-2">
           <small className="text-xl font-medium text-gray-400">Portfolio</small>
           <h2 className="text-4xl font-semibold text-rose-600">
-            Work I've Done
+            Work I&apos;ve Done
           </h2>
         </div>
         <div className="w-full grid grid-cols-4 gap-6">
@@ -23,6 +23,7 @@ const Portfolio = () => {
               priority={true}
               height={2000}
               width={2000}
+              alt="image"
               className="w-full h-[350px] object-cover object-top"
             />
           </a>
