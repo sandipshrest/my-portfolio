@@ -8,21 +8,21 @@ const data = [
     title: "UI/UX Design",
     icon: <SiAdobeindesign />,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, aspernatur consectetur! Velit nisi fugiat deserunt ab commodi libero tempore qui tenetur quod nobis itaque eveniet officiis, hic non eos inventore ipsum aliquid sapiente distinctio praesentium sequi, sit, omnis numquam. Obcaecati, hic ipsa.",
+      "UI/UX design focuses on creating intuitive, visually appealing interfaces that enhance user satisfaction. It involves understanding user needs, designing seamless interactions, and optimizing the overall experience of using a product or service. UI/UX designer uses tools like Figma, Adobe Photoshop.",
   },
   {
     id: 2,
     title: "Frontend Development",
     icon: <FaCode />,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, aspernatur consectetur! Velit nisi fugiat deserunt ab commodi libero tempore qui tenetur quod nobis itaque eveniet officiis, hic non eos inventore ipsum aliquid sapiente distinctio praesentium sequi, sit, omnis numquam. Obcaecati, hic ipsa. ",
+      "Frontend development involves building the client-side of web applications, focusing on the user interface and user experience. Frontend developers use languages like HTML, CSS, and JavaScript to create responsive, interactive interfaces that users interact with directly in their web browsers.",
   },
   {
     id: 3,
     title: "Backend Development",
     icon: <FaCodeBranch />,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, aspernatur consectetur! Velit nisi fugiat deserunt ab commodi libero tempore qui tenetur quod nobis itaque eveniet officiis, hic non eos inventore ipsum aliquid sapiente distinctio praesentium sequi, sit, omnis numquam. Obcaecati, hic ipsa.",
+      "Backend development involves building the server-side of web applications, handling data storage, security, and communication between the server and the client. Backend developers use languages like Python, Ruby, Java, or Node.js to build the logic and functionality that powers the frontend interface, often interacting with databases and other external systems.",
   },
 ];
 export default data;

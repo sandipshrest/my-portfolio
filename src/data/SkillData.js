@@ -49,5 +49,10 @@ const data = [
         title: 'MongoDB',
         level: '45',
     },
+    {
+        id: 10,
+        title: 'Git/Github',
+        level: '50',
+    },
 ];
 export default data;

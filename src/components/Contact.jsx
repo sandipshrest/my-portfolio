@@ -32,11 +32,11 @@ const Contact = () => {
           <small className="text-xl font-medium text-gray-400">Contact</small>
           <h2 className="text-4xl font-semibold text-rose-600">Contact Me</h2>
         </div>
-        <div className="flex gap-12 w-full">
+        <div className="flex lg:flex-row flex-col items-center xl:gap-12 lg:gap-8 gap-14 w-full">
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="flex flex-col items-center gap-7 w-1/2 p-10 sm:text-base text-sm bg-black bg-opacity-30 rounded-lg shadow-[0_0_10px_2px_rgba(225,225,225,0.2)]"
+            className="flex flex-col items-center gap-7 lg:w-1/2 w-full p-10 sm:text-base text-sm bg-black bg-opacity-30 rounded-lg shadow-[0_0_10px_2px_rgba(225,225,225,0.2)]"
           >
             <div className="flex sm:flex-row flex-col sm:gap-5 gap-2 w-full">
               <div className="flex flex-col items-start gap-1 sm:w-1/2 w-full">
@@ -99,7 +99,7 @@ const Contact = () => {
               <p className="relative">Submit</p>
             </button>
           </form>
-          <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 w-1/2">
+          <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:w-1/2 gap-5 w-full">
             <div className="flex items-center gap-2">
               <span className="text-white p-[6px] bg-rose-600 text-sm">
                 <FaMapMarkerAlt />

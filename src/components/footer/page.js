@@ -7,8 +7,8 @@ const Page = () => {
   const date = new Date().getFullYear();
   return (
     <footer className="py-8 text-white bg-black">
-      <div className="container flex items-center justify-between gap-6">
-        <p>Copyright &copy; {date} Sandip Shrestha. All rights reserved. </p>
+      <div className="container flex sm:flex-row flex-col sm:items-center justify-between gap-6">
+        <p className="sm:text-base text-sm">Copyright &copy; {date} Sandip Shrestha. All rights reserved. </p>
         <div className="flex items-center gap-4">
           <a
             href="https://www.facebook.com/sandip.shrestha.3979489"
