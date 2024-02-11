@@ -7,7 +7,7 @@ import { scrollToElement } from "@/utils/Scroll";
 
 const Intro = () => {
   return (
-    <section className="py-32 relative bg-gray-900 text-white" id="home">
+    <section className="md:py-32 py-28 relative bg-gray-900 text-white" id="home">
       <ParticleAnimation />
       <div className="container flex lg:flex-row flex-col justify-between items-center lg:gap-10 gap-14 relative">
         <div className="flex flex-col items-start lg:w-2/3 w-full gap-6">

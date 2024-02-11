@@ -5,12 +5,27 @@ import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "Sandip Shrestha - Web Developer",
-  description: "I am sandip shrestha. Full-stack web developer & UI/UX designer.",
+  description:
+    "I am sandip shrestha. Full-stack web developer & UI/UX designer.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="shortcut icon"
+          href="/images/favicon_io/favicon-16x16.png"
+          type="image/png"
+          size="16x16"
+        />
+        <link
+          rel="shortcut icon"
+          href="/images/favicon_io/favicon-32x32.png"
+          type="image/png"
+          size="32x32"
+        />
+      </head>
       <body>
         <Header />
         {children}

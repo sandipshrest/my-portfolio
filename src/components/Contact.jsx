@@ -26,11 +26,11 @@ const Contact = () => {
     }
   };
   return (
-    <section className="py-24 bg-gray-950 text-white" id="contact">
+    <section className="md:py-24 py-20 bg-gray-950 text-white" id="contact">
       <div className="container flex flex-col items-center gap-14">
         <div className="flex flex-col items-center gap-2">
-          <small className="text-xl font-medium text-gray-400">Contact</small>
-          <h2 className="text-4xl font-semibold text-rose-600">Get In Touch</h2>
+          <small className="md:text-xl text-lg font-medium text-gray-400">Contact</small>
+          <h2 className="md:text-4xl text-2xl font-semibold text-rose-600">Get In Touch</h2>
         </div>
         <div className="flex lg:flex-row flex-col items-center xl:gap-12 lg:gap-8 gap-14 w-full">
           <form

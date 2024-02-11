@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Short Stack
+- Font Author: Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Names "Short Stack" and "Short Stack One".
+- Font Source: http://fonts.gstatic.com/s/shortstack/v15/bMrzmS2X6p0jZC6EcmPFX-SScX8D0nq6.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

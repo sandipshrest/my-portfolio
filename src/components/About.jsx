@@ -3,10 +3,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="py-24 bg-gray-950 text-white" id="about">
+    <section className="md:py-24 py-20 bg-gray-950 text-white" id="about">
       <div className="container flex lg:flex-row flex-col items-center 2xl:gap-12 lg:gap-8 gap-12">
         <div className="lg:w-[35%] sm:w-4/5 w-full lg:order-none order-1">
-          <div className="w-full 2xl:p-14 p-10 bg-black bg-opacity-70 rounded-lg shadow-[0_0_10px_2px_rgba(225,225,225,0.2)]">
+          <div className="w-full 2xl:p-14 sm:p-10 p-6 bg-black bg-opacity-70 rounded-lg shadow-[0_0_10px_2px_rgba(225,225,225,0.2)]">
             <Image
               src="/images/profile.jpeg"
               priority={true}
@@ -19,8 +19,8 @@ const About = () => {
         </div>
         <div className="lg:w-[65%] w-full flex flex-col items-start gap-6">
           <div className="flex flex-col items-start gap-2">
-            <small className="text-xl font-medium text-gray-400">About</small>
-            <h2 className="text-4xl font-semibold text-rose-600">
+            <small className="md:text-xl text-lg font-medium text-gray-400">About</small>
+            <h2 className="md:text-4xl text-2xl font-semibold text-rose-600">
               Know About Me
             </h2>
           </div>
@@ -46,24 +46,24 @@ const About = () => {
               thrive on turning ideas into reality and delivering impactful
               digital solutions.
             </p>
-            <div className="flex gap-14 mt-3">
+            <div className="flex sm:flex-row flex-col sm:gap-14 gap-2 mt-3">
               <div className="flex flex-col items-start gap-2">
                 <span className="flex items-center gap-1">
-                  <p className="font-bold text-white text-lg">Phone:</p>
+                  <p className="font-bold text-white">Phone:</p>
                   9806101417
                 </span>
                 <span className="flex items-center gap-1">
-                  <p className="font-bold text-white text-lg">Address:</p>
+                  <p className="font-bold text-white">Address:</p>
                   Gorkha, Nepal
                 </span>
               </div>
               <div className="flex flex-col items-start gap-2">
                 <span className="flex items-center gap-1">
-                  <p className="font-bold text-white text-lg">Email:</p>
+                  <p className="font-bold text-white">Email:</p>
                   c.restsandip123@gmail.com
                 </span>
                 <span className="flex items-center gap-1">
-                  <p className="font-bold text-white text-lg">Freelance:</p>
+                  <p className="font-bold text-white">Freelance:</p>
                   Available
                 </span>
               </div>

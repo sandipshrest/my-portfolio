@@ -3,15 +3,15 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <section className="py-24 bg-gray-900 text-white" id="portfolio">
+    <section className="md:py-24 py-20 bg-gray-900 text-white" id="portfolio">
       <div className="container flex flex-col items-center gap-14">
         <div className="flex flex-col items-center gap-2">
-          <small className="text-xl font-medium text-gray-400">Portfolio</small>
-          <h2 className="text-4xl font-semibold text-rose-600">
+          <small className="md:text-xl text-lg font-medium text-gray-400">Portfolio</small>
+          <h2 className="md:text-4xl text-2xl font-semibold text-rose-600">
             Work I&apos;ve Done
           </h2>
         </div>
-        <div className="w-full grid grid-cols-4 gap-6">
+        <div className="w-full grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6">
           <a
             href="https://hotelearthlight.com/"
             target="_blank"
