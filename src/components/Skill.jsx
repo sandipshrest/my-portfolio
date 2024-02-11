@@ -17,7 +17,7 @@ const Skill = () => {
           <h2 className="md:text-4xl text-2xl font-semibold text-rose-600">Expertise In</h2>
         </div>
         <p className="sm:text-base text-sm">
-          I've been engaged in development for more than 1 year. Through out the years I've learned & gained some technology skills from many field. Here are some technology stack I expertised in: 
+          I&apos;ve been engaged in development for more than 1 year. Through out the years I&apos;ve learned & gained some technology skills from many field. Here are some technology stack I expertised in: 
         </p>
         <div className="w-full grid md:grid-cols-3 grid-cols-2 md:gap-8 gap-4">
           {SkillData.map((item, id) => (

@@ -26,11 +26,11 @@ const About = () => {
           </div>
           <div className="flex flex-col items-start gap-2 text-gray-300 sm:text-base text-sm">
             <p>
-              Hi there! I'm Sandip Shrestha, a versatile web developer with a
+              Hi there! I&apos;m Sandip Shrestha, a versatile web developer with a
               passion for crafting engaging and dynamic digital experiences.
               Proficient in front-end technologies, I excel in HTML, CSS/SCSS,
               and JavaScript, bringing designs to life with precision and
-              creativity. I'm adept at using frameworks like ReactJS to build
+              creativity. I&apos;m adept at using frameworks like ReactJS to build
               interactive user interfaces, while also leveraging
               TailwindCSS/Bootstrap for efficient styling. With a keen eye for
               design, I utilize tools like Figma to conceptualize and refine
@@ -41,7 +41,7 @@ const About = () => {
               On the back-end, I have experience with NodeJS and ExpressJS,
               enabling me to develop robust server-side applications. While my
               skills in MongoDB provide a foundation for working with databases
-              and managing data effectively. Whether it's crafting sleek
+              and managing data effectively. Whether it&apos;s crafting sleek
               front-end designs or architecting scalable back-end solutions, I
               thrive on turning ideas into reality and delivering impactful
               digital solutions.
