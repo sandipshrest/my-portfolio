@@ -29,13 +29,24 @@ const Intro = () => {
             keen eye for detail, I specialize in translating complex ideas into
             user-friendly interfaces that captivate and engage.
           </p>
-          <button
-            onClick={() => scrollToElement("contact")}
-            className="group inline-block relative py-1 px-2 bg-rose-600 border border-rose-600 overflow-hidden hover:text-rose-600 font-medium"
-          >
-            <span className="inline-block absolute w-full h-full bg-white top-0 -left-full group-hover:left-0 transition-all duration-200 ease-linear"></span>
-            <p className="relative">Hire Me</p>
-          </button>
+          <div className="flex items-center gap-4">
+            <button
+              onClick={() => scrollToElement("contact")}
+              className="group inline-block relative py-1 px-2 bg-rose-600 border border-rose-600 overflow-hidden hover:text-rose-600 font-medium"
+            >
+              <span className="inline-block absolute w-full h-full bg-white top-0 -left-full group-hover:left-0 transition-all duration-200 ease-linear"></span>
+              <p className="relative">Hire Me</p>
+            </button>
+            <a
+              href="https://github.com/kanxa12345"
+              target="_blank"
+              rel="noreferrer"
+              className="group inline-block relative py-1 px-2 bg-gradient-to-r from-black to-gray-950 border border-black overflow-hidden hover:text-black font-medium"
+            >
+              <span className="inline-block absolute w-full h-full bg-white top-0 -right-full group-hover:right-0 transition-all duration-200 ease-linear"></span>
+              <p className="relative">Github</p>
+            </a>
+          </div>
         </div>
         <div className="lg:w-1/3 sm:w-2/3 w-[90%]">
           <Image

@@ -6,6 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaXmark } from "react-icons/fa6";
 
 const Header = () => {
+  const [scrolled, setScrolled] = useState(false);
   const [nav, setNav] = useState(false);
   const [activeBlock, setActiveBlock] = useState(0);
 
@@ -43,6 +44,7 @@ const Header = () => {
     } else {
       setActiveBlock(0);
     }
+    setScrolled(scrollOffset > 0);
   };
 
   useEffect(() => {
@@ -57,10 +59,17 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 bg-black text-white py-4 z-30">
+    <header
+      className={`${
+        scrolled ? "bg-black" : "bg-transparent"
+      } fixed w-full top-0 text-white py-4 z-30 transition-all duration-100 ease-linear`}
+    >
       <div className="container flex justify-between items-center">
         <div>
-          <Link href="/" className="flex sm:text-3xl text-2xl font-semibold">
+          <Link
+            href="/"
+            className="flex sm:text-3xl text-2xl font-semibold bg-gradient-to-r from-rose-600 to-white bg-clip-text text-transparent"
+          >
             SANDIP
           </Link>
         </div>

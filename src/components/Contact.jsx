@@ -30,7 +30,7 @@ const Contact = () => {
       <div className="container flex flex-col items-center gap-14">
         <div className="flex flex-col items-center gap-2">
           <small className="text-xl font-medium text-gray-400">Contact</small>
-          <h2 className="text-4xl font-semibold text-rose-600">Contact Me</h2>
+          <h2 className="text-4xl font-semibold text-rose-600">Get In Touch</h2>
         </div>
         <div className="flex lg:flex-row flex-col items-center xl:gap-12 lg:gap-8 gap-14 w-full">
           <form

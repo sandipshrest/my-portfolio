@@ -21,31 +21,53 @@ const About = () => {
           <div className="flex flex-col items-start gap-2">
             <small className="text-xl font-medium text-gray-400">About</small>
             <h2 className="text-4xl font-semibold text-rose-600">
-              About Myself
+              Know About Me
             </h2>
           </div>
           <div className="flex flex-col items-start gap-2 text-gray-300 sm:text-base text-sm">
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
-              harum ipsa aut delectus eaque ipsum numquam commodi ex vel, fugit
-              cupiditate consequatur ullam at dignissimos, magni nobis molestias
-              qui laboriosam doloribus corporis, voluptates alias. Saepe
-              assumenda perferendis incidunt fugit nostrum eum odio error ad
-              possimus sunt qui, excepturi corporis consequuntur tempora maiores
-              sequi? Nulla illum id, maiores obcaecati asperiores rem ipsam
-              expedita molestias reiciendis consequuntur accusantium ab dolorum
-              non iure laborum, vel distinctio dolorem, doloribus ullam.
-              Aliquam, in, accusantium nam iusto tempora esse blanditiis ducimus
-              sed ipsam laboriosam voluptas impedit quis culpa hic, similique
-              ab. Quas asperiores perspiciatis nobis assumenda.
+              Hi there! I'm Sandip Shrestha, a versatile web developer with a
+              passion for crafting engaging and dynamic digital experiences.
+              Proficient in front-end technologies, I excel in HTML, CSS/SCSS,
+              and JavaScript, bringing designs to life with precision and
+              creativity. I'm adept at using frameworks like ReactJS to build
+              interactive user interfaces, while also leveraging
+              TailwindCSS/Bootstrap for efficient styling. With a keen eye for
+              design, I utilize tools like Figma to conceptualize and refine
+              user interfaces, ensuring a seamless user experience across
+              platforms.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              dolores quas tenetur, placeat quis architecto tempore aliquid nisi
-              consectetur omnis in dolor doloremque esse tempora magnam qui modi
-              voluptatem. Provident, ipsum ea! Alias molestias perferendis,
-              facere corporis quibusdam harum ipsum?
+              On the back-end, I have experience with NodeJS and ExpressJS,
+              enabling me to develop robust server-side applications. While my
+              skills in MongoDB provide a foundation for working with databases
+              and managing data effectively. Whether it's crafting sleek
+              front-end designs or architecting scalable back-end solutions, I
+              thrive on turning ideas into reality and delivering impactful
+              digital solutions.
             </p>
+            <div className="flex gap-14 mt-3">
+              <div className="flex flex-col items-start gap-2">
+                <span className="flex items-center gap-1">
+                  <p className="font-bold text-white text-lg">Phone:</p>
+                  9806101417
+                </span>
+                <span className="flex items-center gap-1">
+                  <p className="font-bold text-white text-lg">Address:</p>
+                  Gorkha, Nepal
+                </span>
+              </div>
+              <div className="flex flex-col items-start gap-2">
+                <span className="flex items-center gap-1">
+                  <p className="font-bold text-white text-lg">Email:</p>
+                  c.restsandip123@gmail.com
+                </span>
+                <span className="flex items-center gap-1">
+                  <p className="font-bold text-white text-lg">Freelance:</p>
+                  Available
+                </span>
+              </div>
+            </div>
           </div>
           <a
             href="/images/cv.pdf"

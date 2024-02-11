@@ -7,7 +7,7 @@ const Service = () => {
       <div className="container flex flex-col items-center gap-14">
         <div className="flex flex-col items-center gap-2">
           <small className="md:text-xl text-lg font-medium text-gray-400">Service</small>
-          <h2 className="md:text-4xl text-2xl font-semibold text-rose-600">My Services</h2>
+          <h2 className="md:text-4xl text-2xl font-semibold text-rose-600">What I Do</h2>
         </div>
         <div className="w-full grid 2xl:grid-cols-3 md:grid-cols-2 gap-10">
           {ServiceData.map((item, id) => (

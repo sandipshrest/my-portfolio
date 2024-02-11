@@ -14,14 +14,10 @@ const Skill = () => {
       <div className="container flex flex-col items-center gap-8">
         <div className="flex flex-col items-center gap-2">
           <small className="text-xl font-medium text-gray-400">Skill</small>
-          <h2 className="text-4xl font-semibold text-rose-600">My Skills</h2>
+          <h2 className="text-4xl font-semibold text-rose-600">Expertise In</h2>
         </div>
         <p className="sm:text-base text-sm">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus
-          reprehenderit quae, voluptatum commodi omnis odio alias perferendis
-          non, ipsa architecto accusamus minima laudantium unde autem nostrum
-          enim eveniet molestiae ad, illo facilis et iure animi? Modi ipsa quam
-          molestias quos!
+          I've been engaged in development for more than 1 year. Through out the years I've learned & gained some technology skills from many field. Here are some technology stack I expertised in: 
         </p>
         <div className="w-full grid md:grid-cols-3 grid-cols-2 md:gap-8 gap-4">
           {SkillData.map((item, id) => (
