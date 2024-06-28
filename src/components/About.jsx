@@ -40,7 +40,7 @@ const About = () => {
             <p>
               On the back-end, I have experience with NodeJS and ExpressJS,
               enabling me to develop robust server-side applications. While my
-              skills in MongoDB provide a foundation for working with databases
+              skills in MongoDB and MySQL provide a foundation for working with databases
               and managing data effectively. Whether it&apos;s crafting sleek
               front-end designs or architecting scalable back-end solutions, I
               thrive on turning ideas into reality and delivering impactful

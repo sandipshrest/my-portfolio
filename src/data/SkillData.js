@@ -16,43 +16,38 @@ const data = [
     },
     {
         id: 4,
-        title: 'TailwindCSS',
+        title: 'TailwindCSS/Bootstrap',
         level: '85',
     },
     {
         id: 5,
-        title: 'JavaScript',
+        title: 'JavaScript/TypeScript',
         level: '75',
     },
     {
         id: 6,
-        title: 'ReactJS',
+        title: 'ReactJS/NextJS',
         level: '80',
     },
     {
         id: 7,
-        title: 'NextJS',
-        level: '65',
-    },
-    {
-        id: 8,
-        title: 'NodeJS',
+        title: 'NodeJS/ExpressJS',
         level: '45',
     },
     {
-        id: 9,
-        title: 'ExpressJS',
-        level: '55',
-    },
-    {
-        id: 9,
+        id: 8,
         title: 'MongoDB',
         level: '45',
     },
     {
-        id: 10,
+        id: 9,
         title: 'Git/Github',
         level: '50',
+    },
+    {
+        id: 10,
+        title: 'MySQL',
+        level: '30',
     },
 ];
 export default data;

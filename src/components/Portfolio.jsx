@@ -6,7 +6,9 @@ const Portfolio = () => {
     <section className="md:py-24 py-20 bg-gray-900 text-white" id="portfolio">
       <div className="container flex flex-col items-center gap-14">
         <div className="flex flex-col items-center gap-2">
-          <small className="md:text-xl text-lg font-medium text-gray-400">Portfolio</small>
+          <small className="md:text-xl text-lg font-medium text-gray-400">
+            Portfolio
+          </small>
           <h2 className="md:text-4xl text-2xl font-semibold text-rose-600">
             Work I&apos;ve Done
           </h2>
