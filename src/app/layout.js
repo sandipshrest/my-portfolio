@@ -4,9 +4,9 @@ import Footer from "@/components/footer/page";
 import { Toaster } from "react-hot-toast";
 
 export const metadata = {
-  title: "Sandip Shrestha - Web Developer",
+  title: "Sandip Shrestha - JavaScript Developer",
   description:
-    "I am sandip shrestha. Full-stack web developer & UI/UX designer.",
+    "I am a MERN stack developer with a years of professional experience in building web application. I specialize in javascript & typescript. I have been primarily working on js stacks like Nodejs, react, nextjs",
 };
 
 export default function RootLayout({ children }) {

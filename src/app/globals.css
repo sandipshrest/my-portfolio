@@ -20,3 +20,7 @@ input::-moz-selection {
   background-color: transparent;
   color: white;
 }
+
+.drop-shadow {
+  filter: drop-shadow(0 2mm 4mm rgba(236, 236, 236, 0.492));
+}

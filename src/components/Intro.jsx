@@ -53,11 +53,11 @@ const Intro = () => {
         </div>
         <div className="lg:w-1/3 sm:w-2/3 w-[90%]">
           <Image
-            src="/images/image.jpeg"
+            src="/images/image.png"
             height={2000}
             width={2000}
             alt="profile"
-            className="w-full aspect-square rounded-full object-cover"
+            className="w-full aspect-square rounded-full object-cover drop-shadow"
           />
         </div>
       </div>

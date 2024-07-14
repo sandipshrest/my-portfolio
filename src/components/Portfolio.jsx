@@ -13,12 +13,12 @@ const Portfolio = () => {
             Work I&apos;ve Done
           </h2>
         </div>
-        <div className="w-full grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-6">
+        <div className="w-full grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8">
           <a
-            href="https://hotelearthlight.com/"
+            href="https://sarallagani.com/"
             target="_blank"
             rel="noreferrer"
-            className="inline-block relative after:absolute after:bg-black after:w-full after:h-full after:inset-0 after:content-['Click_Here'] after:text-lg after:font-semibold after:flex after:justify-center after:items-center after:opacity-0 hover:after:opacity-100 hover:after:bg-opacity-70 after:transition-all after:duration-100 after:ease-linear"
+            className="p-4 bg-black text-white rounded shadow-[0_0_10px_2px_rgba(225,225,225,0.3)] space-y-3"
           >
             <Image
               src="/images/work/hotel-earthlight.png"
@@ -26,8 +26,43 @@ const Portfolio = () => {
               height={2000}
               width={2000}
               alt="image"
-              className="w-full h-[350px] object-cover object-top"
+              className="w-full h-[220px] object-cover object-top"
             />
+            <h3 className="text-2xl font-semibold text-gray-100">
+              Saral Lagani
+            </h3>
+            <p className="text-gray-300">
+              Web application where you can find all
+              information related to NEPSE (Nepal Stock Exchange).
+            </p>
+            <p className="text-red-500 text-sm font-medium">
+              NextJS, NodeJS, Firebase, MySQL
+            </p>
+          </a>
+          <a
+            href="https://hotelearthlight.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="p-4 bg-black text-white rounded shadow-[0_0_10px_2px_rgba(225,225,225,0.3)] space-y-3"
+          >
+            <Image
+              src="/images/work/hotel-earthlight.png"
+              priority={true}
+              height={2000}
+              width={2000}
+              alt="image"
+              className="w-full h-[220px] object-cover object-top"
+            />
+            <h3 className="text-2xl font-semibold text-gray-100">
+              Hotel Earth Light
+            </h3>
+            <p className="text-gray-300">
+              Website of hotel earth light, where you will find about this hotel
+              and you can book the room as well.
+            </p>
+            <p className="text-red-500 text-sm font-medium">
+              NextJS, Python Django
+            </p>
           </a>
         </div>
       </div>
