@@ -57,7 +57,7 @@ const Intro = () => {
             height={2000}
             width={2000}
             alt="profile"
-            className="w-full aspect-square rounded-full object-cover drop-shadow"
+            className="w-full lg:h-[600px] h-[450px] object-cover object-top drop-shadow"
           />
         </div>
       </div>

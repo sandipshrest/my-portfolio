@@ -21,7 +21,7 @@ const Portfolio = () => {
             className="p-4 bg-black text-white rounded shadow-[0_0_10px_2px_rgba(225,225,225,0.3)] space-y-3"
           >
             <Image
-              src="/images/work/hotel-earthlight.png"
+              src="/images/work/saral-lagani.png"
               priority={true}
               height={2000}
               width={2000}
@@ -32,8 +32,8 @@ const Portfolio = () => {
               Saral Lagani
             </h3>
             <p className="text-gray-300">
-              Web application where you can find all
-              information related to NEPSE (Nepal Stock Exchange).
+              Web application where you can find all information related to
+              NEPSE (Nepal Stock Exchange).
             </p>
             <p className="text-red-500 text-sm font-medium">
               NextJS, NodeJS, Firebase, MySQL
@@ -65,6 +65,17 @@ const Portfolio = () => {
             </p>
           </a>
         </div>
+        <p className="text-lg font-medium text-gray-100">
+          More projects on my{" "}
+          <a
+            href="https://github.com/sandipshrest"
+            target="_blank"
+            rel="noreferrer"
+            className="underline text-purple-500"
+          >
+            Github
+          </a>
+        </p>
       </div>
     </section>
   );

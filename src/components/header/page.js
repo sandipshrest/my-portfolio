@@ -62,7 +62,7 @@ const Header = () => {
     <header
       className={`${
         scrolled ? "bg-black" : "bg-transparent"
-      } fixed w-full top-0 text-white py-4 z-30 transition-all duration-100 ease-linear`}
+      } fixed w-full top-0 text-white py-4 z-[99] transition-all duration-100 ease-linear`}
     >
       <div className="container flex justify-between items-center">
         <div>

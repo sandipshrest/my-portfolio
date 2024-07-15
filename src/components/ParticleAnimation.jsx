@@ -33,7 +33,7 @@ const ParticleAnimation = () => {
           },
           modes: {
             push: {
-              quantity: 90,
+              quantity: 100,
             },
             repulse: {
               distance: 200,
