@@ -5,6 +5,7 @@ import About from "./About";
 import Skill from "./Skill";
 import Service from "./Service";
 import Portfolio from "./Portfolio";
+import Chat from "./chat/Chat";
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <Service />
       <Portfolio />
       <Contact />
+      <Chat />
     </>
   );
 };
