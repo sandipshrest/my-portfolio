@@ -4,7 +4,7 @@ import Typed from "typed.js";
 const TypedText = () => {
   useEffect(() => {
     const options = {
-      strings: ["UI/UX Designer", "Frontend Developer", "Backend Developer"],
+      strings: ["Frontend Developer", "Backend Developer"],
       typeSpeed: 50,
       backSpeed: 20,
       loop: true,

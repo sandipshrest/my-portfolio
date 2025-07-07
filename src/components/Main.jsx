@@ -16,7 +16,7 @@ const Main = () => {
       <Service />
       <Portfolio />
       <Contact />
-      <Chat />
+      {/* <Chat /> */}
     </>
   );
 };

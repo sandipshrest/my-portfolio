@@ -16,12 +16,12 @@ const data = [
     },
     {
         id: 4,
-        title: 'TailwindCSS/Bootstrap',
+        title: 'TailwindCSS',
         level: '85',
     },
     {
         id: 5,
-        title: 'JavaScript/TypeScript',
+        title: 'JS/TS',
         level: '75',
     },
     {
