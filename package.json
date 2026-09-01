@@ -15,11 +15,11 @@
   },
   "dependencies": {
     "@ai-sdk/deepseek": "^0.1.8",
-    "@emailjs/browser": "^3.12.1",
     "@google/genai": "^2.20.0",
     "@ramonak/react-progress-bar": "^5.2.0",
     "ai": "^4.1.21",
     "next": "14.1.0",
+    "nodemailer": "^9.1.0",
     "openai": "^4.83.0",
     "react": "^18",
     "react-dom": "^18",

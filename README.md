@@ -13,4 +13,4 @@ This is my portfolio website made using NextJs. This is my online cv where peopl
 ### NextJS for designing.
 ### TypedJS for typed effect. 
 ### Ts Prticles for display animation.
-### EmailJs for send messages to my email.
+### Nodemailer for sending messages to my email.

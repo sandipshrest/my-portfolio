@@ -1,28 +1,40 @@
 "use client";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
-import emailjs from "@emailjs/browser";
 import { toast } from "react-hot-toast";
 
 const Contact = () => {
   const form = useRef();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const sendEmail = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
+
+    const formData = new FormData(form.current);
+    const data = Object.fromEntries(formData.entries());
+
     try {
-      const response = await emailjs.sendForm(
-        "service_ke8w1dv",
-        "template_17q9ihx",
-        form.current,
-        "-ao-363BAMAyPS5el"
-      );
-      if (response) {
-        toast.success("Form submitted successfully.");
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        toast.success(result.message || "Form submitted successfully.");
+        form.current.reset();
+      } else {
+        toast.error(result.error || "Form submission failed");
       }
     } catch (err) {
       toast.error("Form submission failed");
+    } finally {
+      setIsSubmitting(false);
     }
   };
   return (
@@ -93,10 +105,11 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="group inline-block relative py-1 px-2 bg-rose-600 border border-rose-600 overflow-hidden hover:text-rose-600 font-medium"
+              disabled={isSubmitting}
+              className="group inline-block relative py-1 px-2 bg-rose-600 border border-rose-600 overflow-hidden hover:text-rose-600 font-medium disabled:opacity-60 disabled:cursor-not-allowed"
             >
               <span className="inline-block absolute w-full h-full bg-white top-0 -left-full group-hover:left-0 transition-all duration-200 ease-linear"></span>
-              <p className="relative">Submit</p>
+              <p className="relative">{isSubmitting ? "Submitting..." : "Submit"}</p>
             </button>
           </form>
           <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:w-1/2 gap-5 w-full">
